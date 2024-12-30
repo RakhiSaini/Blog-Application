@@ -4,7 +4,7 @@ const connection = require('./db/connection')
 const userRouter = require('./routes/user.route')
 const jwt = require("jsonwebtoken")
 app.use(express.json());
-const SECRETKEY = "habhai"
+const SECRETKEY = "blogapplication"
 app.use('/',userRouter)
 app.use((req,res,next)=>{
     const token = req.headers.authorization;
