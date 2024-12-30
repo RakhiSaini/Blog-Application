@@ -1,0 +1,197 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar (Fixed at the top) */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 1000; */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Main Content */
+.main-content {
+  /* padding-top: 80px;  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: 30px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+      no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+/* Blog Intro */
+.blog-intro h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.blog-intro p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+/* Create Button */
+.create-button {
+  padding: 10px 20px;
+  background-color: #f28c28;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #b4c7db;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10%;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  z-index: 2000;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+  .header .auth-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header .auth-buttons button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .blog-intro h1 {
+    font-size: 40px;
+  }
+
+  .blog-intro p {
+    font-size: 16px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 24px;
+  }
+
+  .login-button {
+    font-size: 16px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+
+  .blog-intro h1 {
+    font-size: 16px;
+    margin-top: 5%;
+  }
+  .blog-intro p {
+    font-size: 16px;
+    padding: 10%;
+  }
+
+  .login-button {
+    font-size: 14px;
+  }
+}
+
+/* Navigation Button Styles */
+.nav-button {
+  background-color: #f28c28;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #d97a22;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .nav-button {
+    width: 100%;
+    font-size: 14px;
+  }
+}

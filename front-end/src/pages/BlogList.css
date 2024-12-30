@@ -1,0 +1,36 @@
+.blog-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #d48b4b;
+}
+
+.blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.blog-message {
+  font-size: 14px;
+  color: #363434;
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

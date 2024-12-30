@@ -1,0 +1,25 @@
+{
+    "blogs": [
+      {
+        "title": "My First Blog",
+        "message": "This is the content of my first blog. Welcome to my blogging journey!"
+      },
+      {
+        "title": "Travel Adventures",
+        "message": "Exploring the mountains was an amazing experience. Here are some tips for your next trip."
+      },
+      {
+        "title": "Tech Trends 2024",
+        "message": "Discover the latest advancements in technology and how they are shaping our future."
+      },
+      {
+        "title": "Healthy Living",
+        "message": "Simple tips to maintain a healthy lifestyle and improve your overall well-being."
+      },
+      {
+        "title": "Cooking 101",
+        "message": "Learn the basics of cooking with these easy recipes for beginners."
+      }
+    ]
+  }
+  
