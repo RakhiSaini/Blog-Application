@@ -7,7 +7,8 @@ A full-stack **Blog Application** that allows users to create, read, update, and
 
 ## 🚀 Live Demo
 
-👉 *Add your deployed link here*
+👉 https://blog-application-new.netlify.app/<img width="1470" height="956" alt="Screenshot 2026-04-22 at 8 57 36 PM" src="https://github.com/user-attachments/assets/f28ec371-219b-4295-907d-96ca4351c2e3" />
+
 
 ---
 
@@ -43,6 +44,7 @@ A full-stack **Blog Application** that allows users to create, read, update, and
 
 ## 📸 Screenshots
 
-*Add your project screenshots here*
+<img width="1470" height="956" alt="Screenshot 2026-04-22 at 8 58 01 PM" src="https://github.com/user-attachments/assets/241101f9-581b-4866-9ad1-2af77c43ed03" />
+
 
 ---
