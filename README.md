@@ -1,7 +1,7 @@
 # Blog-Application
 # 📝 Blog Application
 
-A full-stack **Blog Application** that allows users to create, read, update, and delete blog posts with a clean and responsive user interface.
+A full-stack **Blog Application** that allows users to create, read, update, and delete blog posts with a clean and responsive user interface. Built using React.js for the frontend and Node.js with Express for the backend.
 
 ---
 
